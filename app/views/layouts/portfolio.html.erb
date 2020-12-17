@@ -36,7 +36,7 @@
 </nav>
    <%= render "layouts/nav" %>
   
-<div class="container-fluid bg-3 text-center">  
+<div class="container-fluid bg-3 text-left">  
   <%= render "layouts/header" %>
    
   <% if notice %>
@@ -63,11 +63,8 @@
 
   </div>
 </div> 
-
-
-
-
 </body>
+
 <script>
   $(".nav>li").each(function() {
     var navItem = $(this);
@@ -77,6 +74,5 @@
 });
 
 </script>
-
 
 </html>

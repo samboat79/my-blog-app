@@ -23,10 +23,6 @@ amazon:
 
 
 
-
-
-
-
 # Remember not to checkin your GCS keyfile to a repository
 # google:
 #   service: GCS

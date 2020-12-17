@@ -18,3 +18,10 @@
 
 <%= link_to 'Edit', edit_article_path(@article), class:"btn btn-primary"%> 
 <% end %>
+
+<%= render "comments/list",  comment: @comment %>
+<% if user_signed_in? %>
+<%= render "comments/form",  comment: @comment %>
+
+<% end %>
+
